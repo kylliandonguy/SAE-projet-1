@@ -4,11 +4,40 @@
     <meta charset="UTF-8">
     <meta charset="utf-8">
     <title>Produits et Services</title>
-    <link rel="stylesheet" href="styles_pps.css">
-    <link rel="icon" type="image" href="images/favicon_bouygues.png" />
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="icon" type="image" href="images_produit_et_service/favicon_bouygues.png" />
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" >
+            <div class="container-fluid">
+                <a class="navbar-brand" >Bouygues Télécom</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item" >
+                            <a class="nav-link" href="page_produit_et_service.html">Produits et Services</a>
+                        </li>
+                        <li class="nav-item" >
+                            <a class="nav-link" href="ecologie.html">écologie</a>
+                        </li>
+                        <li class="nav-item" >
+                            <a class="nav-link" href="economie.html">économie</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
     <section>
         <h1>Les Produits</h1>
@@ -62,5 +91,7 @@
     <section>
         <h1>Les Services</h1>
     </section>
+
+<script src="bootstrap/js/bootstrap.js"></script>
 </body>
 </html>
