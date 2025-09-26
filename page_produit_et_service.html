@@ -5,62 +5,107 @@
     <meta charset="utf-8">
     <title>Produits et Services</title>
     <link rel="stylesheet" href="styles_pps.css">
+    <link rel="stylesheet" href="navbar.css">
     <link rel="icon" type="image" href="images_pps/favicon_bouygues.png" />
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" >
+            <div class="container-fluid">
+                <a class="navbar-brand" >Bouygues Télécom</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item" >
+                            <a class="nav-link" href="page_produit_et_service.html">Produits et Services</a>
+                        </li>
+                        <li class="nav-item" >
+                            <a class="nav-link" href="ecologie.html">Écologie</a>
+                        </li>
+                        <li class="nav-item" >
+                            <a class="nav-link" href="economie.html">Économie</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
 
     <section>
         <h1>Les Produits</h1>
         <br>
+        <p>Explorez les produits et services de Bouygues Telecom et 
+            découvrez comment l'entreprise accompagne ses clients dans leur vie connectée.</p>
+        <br>
         <div>
             <h2>Téléphones</h2>
-            <p>Zone Texte</p>
-            <div>
-                <div>
-                    <img src="images_pps/iphone.png">
-                    <p>Zone texte sous image</p>
+            <p></p>Bouygues Telecom propose à ses clients une gamme de smartphones dernière génération
+            disponibles à l'achat, soit au prix initial, soit via un paiement échelonné 
+            combiné à la souscription d'un forfait mobile.</p>
+            <div class="liste_telephone">
+                <div class="telephone">
+                    <img class="telephone_image" src="images_pps/iphone.png">
+                    <p class="telephone_paragraphe">Bouygues Telecom inclut dans sa sélection les smartphones Apple, offrant ainsi à ses clients la 
+                        possibilité de découvrir l'expérience unique de l'écosystème iOS.</p>
                 </div>
-                <div>
-                    <img src="images_pps/galaxy.jpg">
-                    <p>Zone texte sous image</p>
+                <div class="telephone">
+                    <img class="telephone_image" src="images_pps/galaxy.jpg">
+                    <p class="telephone_paragraphe">Bouygues Telecom propose également les smartphones Samsung Galaxy, permettant à ses clients de 
+                        profiter des dernières innovations de la marque leader d'Android.</p>
                 </div>
-                <div>
-                    <img src="images_pps/google.jpg">
-                    <p>Zone texte sous image</p>
+                <div class="telephone">
+                    <img class="telephone_image" src="images_pps/google.jpg">
+                    <p class="telephone_paragraphe">Bouygues Telecom enrichit son offre avec des smartphones Google, proposant ainsi 
+                        des appareils qui mettent en avant la puissance de l'écosystème Android.</p>
                 </div>
             </div>
         </div>
         <br>
         <div>
             <h2>Accessoires</h2>
-            <p>Zone Texte</p>
-            <div>
-                <div>
-                    <img src="images_pps/airpod.png">
-                    <p>Zone texte sous image</p>
+            <p>Bouygues Telecom permet également à ses clients de s'équiper entièrement 
+                en accessoires, offrant ainsi une expérience complète et personnalisée.</p>
+            <div class="liste_accessoire">
+                <div class="accessoire">
+                    <img class="accessoire_image" src="images_pps/airpod.png">
+                    <p class="accessoire_paragraphe">L'entreprise propose à ses clients un large éventail d'écouteurs 
+                        sans fil pour leur permettre de profiter pleinement de leur musique.</p>
                 </div>
-                <div>
-                    <img src="images_pps/protection.png">
-                    <p>Zone texte sous image</p>
+                <div class="accessoire">
+                    <img class="accessoire_image" src="images_pps/protection.png">
+                    <p class="accessoire_paragraphe">Vous pouvez également y trouver des protections pour 
+                        votre tout nouveau téléphone, comme des verres trempés et des coques.</p>
                 </div>
-                <div>
-                    <img src="images_pps/chargeur.png">
-                    <p>Zone texte sous image</p>
+                <div class="accessoire">
+                    <img class="accessoire_image" src="images_pps/chargeur.png">
+                    <p class="accessoire_paragraphe">Et pour les plus pressés, vous pouvez y trouver des chargeurs ultra-rapides !</p>
                 </div>
             </div>
         </div>
         <br>
         <div>
             <h2>Box Internet</h2>
-            <div>
-                <img src="images_pps/bbox.jpg">
-                <p>Zone de Texte</p>
+            <div class="box">
+                <img class="box_image" src="images_pps/bbox.jpg">
+                <p class="box_paragraphe">Zone de Texte</p>
             </div>
         </div>
     </section>
     <section>
         <h1>Les Services</h1>
+        <h1 class="WARNING_PROVISOIR">Ceci est une V1 du site ! Il n'est pas terminé. </h1> 
     </section>
+
+    <script src="bootstrap/js/bootstrap.js"></script>
 </body>
 </html>
