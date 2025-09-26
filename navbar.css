@@ -8,6 +8,7 @@ header *{
     color: white;
     transform: scale(1.15);
     transition: 0.5s;
+    text-decoration: none;
 }
 .navbar-brand{
     border-radius: 10px;
