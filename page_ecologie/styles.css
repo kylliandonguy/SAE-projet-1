@@ -1,0 +1,130 @@
+/* --- Global --- */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+/* --- Header --- */
+header {
+    background-color: #3a4750;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Boutons style macOS */
+.window-buttons {
+    display: flex;
+    gap: 8px;
+    margin-right: 15px;
+}
+.window-buttons span {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.window-buttons .red { background: #ff5f56; }
+.window-buttons .yellow { background: #ffbd2e; }
+.window-buttons .green { background: #27c93f; }
+
+header h1 {
+    margin: 0;
+    font-size: 20px;
+    flex-grow: 1; /* espace entre boutons et menu */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* --- Sections --- */
+section {
+    background: #f0f2f5;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+/* Liens */
+section a {
+    color: #d2006b;
+    text-decoration: none;
+}
+section a:hover {
+    text-decoration: underline;
+}
+
+/* --- Logo IUT --- */
+.logo-iut {
+    float: right;
+    max-width: 250px;
+    margin: 10px;
+}
+
+/* --- Tableau de données --- */
+table {
+    width: 100%;
+    border-spacing: 15px;
+    text-align: center;
+}
+td {
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: black;
+}
+
+/* Couleurs des cases */
+tr:nth-child(1) td:nth-child(1) { background: #4fc3f7; }  /* bleu clair */
+tr:nth-child(1) td:nth-child(2) { background: #81c784; }  /* vert */
+tr:nth-child(1) td:nth-child(3) { background: #ffb74d; }  /* orange */
+tr:nth-child(2) td:nth-child(1) { background: #e57373; }  /* rouge */
+tr:nth-child(2) td:nth-child(2) { background: #f06292; }  /* rose */
+tr:nth-child(2) td:nth-child(3) { background: #7986cb; }  /* bleu foncé */
+
+/* --- Bloc de textes --- */
+.text-blocks {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.text-blocks span {
+    background: #a5d6a7;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.text-blocks .gray-box {
+    background: #bdbdbd;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* --- Footer --- */
+footer {
+    background: #3a4750;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
