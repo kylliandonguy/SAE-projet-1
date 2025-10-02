@@ -1,13 +1,36 @@
+/*-----------------------------------------------------------------------------------------
+Création des polices
+-----------------------------------------------------------------------------------------*/
+
+@font-face {
+    font-family: "poppins";
+    src: url(polices/poppins.ttf);
+}
+
+@font-face {
+    font-family: "nsj"; /*Noto Sans Japanese*/
+    src: url(polices/nsj.ttf);
+}
+
+section{
+    background-color: #f1f2f6;
+}
+
 .liste_telephone , .liste_accessoire {
     display: flex;
     justify-content: center;
-    column-gap: 250px;
-    row-gap: 25px;
+    column-gap: 5%;
     flex-wrap: wrap;
 }
 
-.telephone , .accessoire {
+.telephone , .accessoire  {
+    display: flex;
+    flex-direction: column;
     width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    gap: 20px;
+    box-shadow: 1px 1px 1px 1px #ced6e0;
 }
 
 .telephone_image , .accessoire_image {
@@ -15,7 +38,6 @@
     height: 300px;
     overflow: hidden;
     border-radius: 25px;
-    box-shadow: 10px 5px 5px #a4b0be;
 }
 
 .telephone_image img , .accessoire_image img {
@@ -25,59 +47,88 @@
     object-position: center;
 }
 
-.telephone_paragraphe , .accessoire_paragraphe {
-    margin-top: 25px;
-    background-color: #A5B1C2;
-    border: 1px solid;
-    border-radius: 25px;
-    box-shadow: 10px 5px 5px #a4b0be;
-    color: #4b6584;
+.telephone-titre {
     display: flex;
-    justify-content: center; 
-    align-items: center;     
-    text-align:justify;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 5px;
-    padding-right: 5px;
+    justify-content: center;
+    align-items: center;
 }
 
-.box {
+ul {
+    list-style: none;
+}
+
+.telephone-mensuel {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.telephone-condition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.telephone-prix {
+    padding: 0;
+}
+
+/*-----------------------------------------------------------------------------------------
+Header Téléphone et Accessoire
+-----------------------------------------------------------------------------------------*/
+
+
+.header-telephone , .header-accessoire {
+    background-image: url(images_produit_et_service/header-bg.jpg);
+    color: white;
+    font-size: 36px;
+    padding: 80px;
+    padding-right: 500px;
+    font-family: "poppins", serif;
+}
+
+/*-----------------------------------------------------------------------------------------
+Paragraphe Téléphone
+-----------------------------------------------------------------------------------------*/
+
+.info-telephone {
+    font-size: 21px;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
     margin: 5%;
+    margin-left: 10%;
+    font-family: "nsj", serif;
 }
 
-.box_image {
+/*-----------------------------------------------------------------------------------------
+Titre Page
+-----------------------------------------------------------------------------------------*/
+
+.phrase-accroche {
+    width: 75%;
+    font-family: "poppins", serif;
+    margin-left: 5%;
+    font-size: 30px;
+}
+
+.phrase-accroche-bg {
     width: 100%;
-    height: auto;
-    overflow: hidden;
-    border-radius: 25px;
-    box-shadow: 10px 5px 5px #a4b0be;
+    /*background-color: #dfe4ea;*/
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-.box_image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-}
-
-.box_paragraphe {
-    margin-top: 25px;
-    background-color: #A5B1C2;
-    border: 1px solid;
-    border-radius: 25px;
-    box-shadow: 10px 5px 5px #a4b0be;
-    color: #4b6584;
-    display: flex;
-    justify-content: center; 
-    align-items: center;     
-    text-align:justify;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-.WARNING_PROVISOIR {
-    color: red;
+.titre {
+    width: 75%;
+    font-family: "poppins", serif;
+    margin-left: 5%;
+    font-size: 60px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-image: url(images_produit_et_service/header-bg.jpg);
+    background-clip: text;
+    color: transparent;
+    background-position: bottom;
 }
