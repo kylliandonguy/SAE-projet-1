@@ -28,9 +28,6 @@ header {
     border-radius: 50%;
     display: inline-block;
 }
-.window-buttons .red { background: #ff5f56; }
-.window-buttons .yellow { background: #ffbd2e; }
-.window-buttons .green { background: #27c93f; }
 
 header h1 {
     margin: 0;
@@ -184,6 +181,7 @@ footer {
 body, html, br {
     background-color: #f1f2f6;
 }
+
 
 
 
