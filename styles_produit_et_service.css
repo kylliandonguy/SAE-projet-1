@@ -412,6 +412,10 @@ section, body, html {
     .texte-box {
         font-size: 30px;
     }
+
+    .image-box {
+        margin: 3% 5% 10% 5%;
+    }
 }
 
 /*-----Footer-----*/
