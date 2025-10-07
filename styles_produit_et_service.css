@@ -359,7 +359,7 @@ section, body, html {
 
     .div-mobile {
         width: 90%;
-        margin-bottom: 10%;
+        margin: 2% 5% 10% 5%;
     }
 }
 
@@ -401,6 +401,10 @@ section, body, html {
     .info-box, .image-box {
         width: 90%;
         margin-bottom: 10%;
+    }
+
+    .image-box {
+        margin: 3% 5% 2% 5%;
     }
 }
 
