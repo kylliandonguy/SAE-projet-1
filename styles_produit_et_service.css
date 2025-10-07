@@ -41,14 +41,11 @@ section, body, html {
 /*-----Haut de page-----*/
 
 .header2 {
-    /*background-image: url(images_produit_et_service/header-bg2.png);*/
     background: linear-gradient(to bottom right, var(--palette_bonus_primaire), var(--palette_bonus_secondaire), var(--palette_bonus_primaire));
     font-size: 58px;
     font-family: "poppins" serif;
     color: var(--texte_blanc);
     padding: 5% 25% 5% 5%;
-    /*text-shadow: 2px 2px 4px var(--ombre);*/
-    /*background-position: center;*/
     margin: 0;
     line-height: 125%;
 }
@@ -61,17 +58,19 @@ section, body, html {
 
 @media screen and (max-width : 768px) {
     .header2 {
-        font-size: 48px;
+        font-size: 38px;
     }
 }
 
-/*-----Global-----*/
-
-
+@media screen and (max-width : 426px) {
+    .div-accessoires {
+        font-size: 28px;
+    }
+}
 
 /*-----Catégorie Téléphone-----*/
 
-.info-telephone {
+.info-telephone , .info-mobile {
     padding: 3% 5% 3% 5%;
     font-size: 28px;
     align-items: center;
@@ -103,7 +102,7 @@ section, body, html {
 .div-telephone {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 250px;
     background-color: var(--background-secondaire);
     border-radius: 15px;
     box-shadow: 1px 1px 1px var(--ombre-box);
@@ -147,6 +146,12 @@ section, body, html {
     .div-telephone {
         width: 450px;
         margin-bottom: 2%;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .div-telephone {
+        margin-bottom: 5%;
     }
 }
 
@@ -234,5 +239,188 @@ section, body, html {
     .div-accessoires {
     width: 70%;
     margin-bottom: 3%;
+    }
+}
+
+/*-----Fibre optique-----*/
+
+.fibre {
+    display: flex;
+}
+
+.image-fibre {
+    width: 40%;
+    margin: 5%;
+    border-radius: 15px;
+    display: grid;
+    place-items: center;
+}
+
+.image-fibre img, .titre-fibre {
+    grid-area: 1 / 1 / -1 / -1;
+}
+
+.image-fibre img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.titre-fibre {
+    color: var(--texte_blanc);
+    font-size: 38px;
+    text-shadow: 2px 2px 2px var(--ombre);
+    z-index: 2;
+}
+
+.texte-fibre {
+    width: 40%;
+    margin: 5%;
+    background-color: var(--background-secondaire);
+    border-radius: 15px;
+    padding: 5%;
+    box-shadow: 1px 1px 1px var(--ombre-box);
+    font-size: 20px;
+}
+
+@media screen and (min-width : 1440px) {
+    .texte-fibre {
+        font-size: 30px;
+    }
+
+    .titre-fibre {
+        font-size: 58px;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .fibre {
+        flex-direction: column;
+    }
+
+    .image-fibre {
+        width: 90%;
+    }
+
+    .texte-fibre {
+        width: 90%;
+    }
+}
+
+/*-----Forfait Mobile-----*/
+
+.liste-mobile {
+    width: 90%;
+    display: flex;
+    margin: 2% 5% 2% 5%;
+    gap: 5%;
+    justify-content: center;
+}
+
+.div-mobile {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    background-color: var(--background-secondaire);
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px var(--ombre-box);
+}
+
+.titre-mobile {
+    width: 100%;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 7%;
+}
+
+.image-mobile {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+@media screen and (max-width : 768px) {
+    .liste-mobile {
+        flex-direction: column;
+    }
+
+    .div-mobile {
+        width: 90%;
+        margin-bottom: 10%;
+    }
+}
+
+/*-----Box-----*/
+
+.box {
+    display: flex;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    width: 42.5%;
+    margin: 3% 2.5% 3% 5%; 
+    background-color: var(--background-secondaire);
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px var(--ombre-box);
+    padding: 2%;
+}
+
+.texte-box {
+    font-size: 20px;
+    justify-content: center;
+}
+
+.image-box {
+    width: 42.5%;
+    margin: 3% 5% 3% 2.5%;
+    background-color: var(--background-secondaire);
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px var(--ombre-box);
+}
+
+@media screen and (max-width : 768px) {
+    .box {
+        flex-direction: column;
+    }
+
+    .info-box, .image-box {
+        width: 90%;
+        margin-bottom: 10%;
+    }
+}
+
+@media screen and (min-width : 1440px) {
+    .texte-box {
+        font-size: 30px;
+    }
+}
+
+/*-----Footer-----*/
+
+footer {
+    background: linear-gradient(to bottom right, var(--palette_bonus_primaire), var(--palette_bonus_secondaire), var(--palette_bonus_primaire));
+    padding: 5%;
+}
+
+.footer-texte {
+    color: var(--texte_blanc);
+    font: 20px;
+}
+
+@media screen and (min-width : 1440px) {
+    .footer-texte {
+        font: 25px;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .footer-texte {
+        font: 15px;
     }
 }
