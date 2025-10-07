@@ -75,6 +75,7 @@ section, body, html {
     font-size: 28px;
     margin: 0;
     height: 100%;
+    text-align: center;
 }
 
 .liste-telephone {
