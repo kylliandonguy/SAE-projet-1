@@ -229,3 +229,10 @@ section, body, html {
     margin-bottom: 3%;
     }
 }
+
+@media screen and (max-width : 426px) {
+    .div-accessoires {
+    width: 70%;
+    margin-bottom: 3%;
+    }
+}
