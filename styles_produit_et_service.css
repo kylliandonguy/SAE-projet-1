@@ -73,8 +73,8 @@ section, body, html {
 .info-telephone , .info-mobile {
     padding: 3% 5% 3% 5%;
     font-size: 28px;
-    align-items: center;
     margin: 0;
+    height: 100%;
 }
 
 .liste-telephone {
@@ -168,7 +168,8 @@ section, body, html {
     border-radius: 15px;
     box-shadow: 1px 1px 1px var(--ombre-box);
     font-size: 20px;
-    padding: 2.5%;
+    padding: 10% 2.5% 10% 2.5%;
+    line-height: 250%;
 }
 
 .liste-accessoires {
@@ -280,7 +281,8 @@ section, body, html {
     margin: 5%;
     background-color: var(--background-secondaire);
     border-radius: 15px;
-    padding: 5%;
+    padding: 10% 5% 10% 5%;
+    line-height: 250%;
     box-shadow: 1px 1px 1px var(--ombre-box);
     font-size: 20px;
 }
