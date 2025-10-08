@@ -156,6 +156,16 @@ footer {
     padding: 2%;
     flex-direction: column;
 }
+.centre {
+    display: flex;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px #ced6e0;
+    width: 38%;
+    margin-left: 10%;
+    border-radius: 15px;
+    padding: 2%;
+    flex-direction: column;
+}
 
 .gauche {
     display: flex;
@@ -181,6 +191,7 @@ footer {
 body, html, br {
     background-color: #f1f2f6;
 }
+
 
 
 
