@@ -1,7 +1,119 @@
-section img {
-    max-width: 40%;
-    height: auto;
-    display: block;
-    margin: 10px 0;
+@font-face {
+    font-family: "poppins";
+    src: url(polices/poppins.ttf);
+}
+
+@font-face {
+    font-family: "nsj";
+    src: url(polices/nsj.ttf);
+}
+
+
+
+section, body, html {
+    background-color: var(--background_primaire);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "nsj" serif;
+
+    --texte_blanc:#ffffff;
+    --texte_black:#000000;
+    --ombre:#a4b0be;
+
+    --background_primaire:#f1f2f6;
+    --background-secondaire:#ffffff;
+    --ombre-box:#ced6e0;
+
+    --palette_primaire:#4bcffa;
+    --palette_secondaire:#dff9fb;
+    --palette_tertiaire:#f5f6fa;
+
+    --palette_bonus_primaire:#3498DB;
+    --palette_bonus_secondaire:#25CCF7;
+
+}
+
+
+.div-principal{
+    display: flex;
+    margin: 75px 0 0 0;
+}
+
+.gauche{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.droite{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 20% 0 0 0;
+}
+
+
+.contenue{
+    display: flex;
+    width: 100%;;
+}
+
+.image{
+    width: 70%;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px var(--ombre-box);
+    background-color: var(--background-secondaire);
+    padding: 2%;
+    margin: 0 0 0 3%;
+
+}
+.image2{
+    width: 70%;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px var(--ombre-box);
+    background-color: var(--background-secondaire);
+    padding: 2%;
+    margin: 0 0 0 28%;
+
+}
+
+.ligne{
+    width: 2px;
+    height: 90%;
+    margin: 5% 3%;
+    background-color: var(--palette_bonus_secondaire);
+
+}
+.imagetexte{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.info{
+    margin: 5% 5% 5% 5%;
+    background-color: var(--background-secondaire);
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px var(--ombre-box);
+    padding: 2%;
+    font-size: 20px;
+
+
+}
+
+.info2{
+    margin: 5% 5% 5% 3%;
+    background-color: var(--background-secondaire);
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px var(--ombre-box);
+    padding: 2%;
+    font-size: 20px;
+
+
 }
 
