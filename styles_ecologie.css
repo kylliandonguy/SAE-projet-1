@@ -31,6 +31,10 @@
 
 }
 
+header * {
+    font-size: 16px;
+}
+
 section, body, html {
     background-color: var(--background_primaire);
 }
@@ -236,3 +240,4 @@ footer {
         font: 15px;
     }
 }
+
