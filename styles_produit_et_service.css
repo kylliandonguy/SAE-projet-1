@@ -12,7 +12,7 @@
 
 /*-----Elements de bases-----*/
 
-section, body, html {
+body, html {
     background-color: var(--background_primaire);
 }
 
@@ -36,6 +36,13 @@ section, body, html {
     --palette_bonus_primaire:#3498DB;
     --palette_bonus_secondaire:#25CCF7;
 
+}
+
+.ligne-horizontal {
+    width: 90%;
+    margin: 0 5%;
+    height: 3px;
+    background-color: var(--palette_primaire);
 }
 
 /*-----Haut de page-----*/
