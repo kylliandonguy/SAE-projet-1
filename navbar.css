@@ -38,7 +38,7 @@ header>nav>div>div>ul{
 
 }
 .bouygues:hover{
-    background-color: black;
+    background-color: #dff9fb;
     opacity: 80%;
     color: white;
     transform: scale(1.15);
@@ -47,7 +47,13 @@ header>nav>div>div>ul{
 .bouygues{
     border-radius: 10px;
     padding:10px;
+    height: 75px;
+    
 }
+.bouygues>a>img{
+    height: 100%;
+}
+
 .bas_page{
     position: absolute;
     color: black;
@@ -62,4 +68,20 @@ header>nav>div>div>ul{
 header>nav>div>div>ul>.page_actuel *{
     background-color: #4bcffa;
     border-radius: 10px;
+}
+
+footer {
+    background: linear-gradient(to bottom right, var(--palette_bonus_primaire), var(--palette_bonus_secondaire), var(--palette_bonus_primaire));
+    padding: 5%;
+}
+
+.footer-texte {
+    color: var(--texte_blanc);
+    font: 20px;
+}
+
+@media screen and (max-width : 768px) {
+    .footer-texte {
+        font: 15px;
+    }
 }
