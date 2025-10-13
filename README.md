@@ -37,6 +37,10 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sh
 
 <img src="doc/W3C-Verif-Accueil.png" alt="Capture d'écran sur W3C.">
 
+Vérification écoconception : [Détail ICI](https://www.ecoindex.fr/resultat/?id=d6b26fd0-309e-4bd7-9e17-ac8d35148ebc)
+
+<img src="doc/eco-accueil.png" alt="Capture d'écran écoconception">
+
 ### Page produits et services
 
 **Auteur : Dubois Esteban **
@@ -44,6 +48,10 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sh
 Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fkylliandonguy.github.io%2FSAE-projet-1%2Fpage_produit_et_service.html)
 
 <img src="doc/W3C-Verif-PPS.png" alt="Capture d'écran sur W3C.">
+
+Vérification écoconception : [Détail ICI](https://www.ecoindex.fr/resultat/?id=215623bd-b227-4089-adac-0b0a7618d5c2)
+
+<img src="doc/eco-pps.png" alt="Capture d'écran écoconception">
 
 ### Page écologie 
 
@@ -53,6 +61,10 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sh
 
 <img src="doc/W3C-Verif-Ecologie.png" alt="Capture d'écran sur W3C.">
 
+Vérification écoconception : [Détail ICI](https://www.ecoindex.fr/resultat/?id=3000b6c4-bae3-44bc-abc0-0a22c7ec8bf3)
+
+<img src="doc/eco-ecologie.png" alt="Capture d'écran écoconception">
+
 ### Page économie 
 
 **Auteur : Donguy Kyllian **
@@ -60,6 +72,10 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sh
 Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fkylliandonguy.github.io%2FSAE-projet-1%2Feconomie.html)
 
 <img src="doc/W3C-Verif-Economie.png" alt="Capture d'écran sur W3C.">
+
+Vérification écoconception : [Détail ICI](https://www.ecoindex.fr/resultat/?id=84167a5f-f460-4dff-9e2f-a019efb87979)
+
+<img src="doc/eco-economie.png" alt="Capture d'écran écoconception">
 
 ## Répartition du Travail
 
