@@ -98,7 +98,7 @@
 .div-telephone {
     display: flex;
     flex-direction: column;
-    width: 250px;
+    width: 300px;
     background-color: var(--background-secondaire);
     border-radius: 15px;
     box-shadow: 1px 1px 1px var(--ombre-box);
