@@ -2,22 +2,21 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta charset="utf-8">
-    <title>Produits et Services</title>
+    <title>Accueil</title>
     <link rel="stylesheet" href="navbar.css">
-    <link rel="stylesheet" href="styles_index.css">
-    <link rel="icon" type="image" href="images/favicon_bouygues.png" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/favicon_bouygues.png">
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link rel="icon" type="image" href="favicon_bouygues.png" />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" type="image/png" href="favicon_bouygues.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 </head>
 <body>
     <header>
         <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" >
             <div class="container-fluid"
-            ><li class="bouygues">
-                <a class="nav-link page_actuel" aria-current="page" href="index.html"><strong>Bouygues Telecom</strong></a>
-            </li>
+            ><div class="bouygues">
+                <a class="nav-link page_actuel" aria-current="page" href="index.html"><img src="bouygues.png" alt="logo de Bouygues Telecom"></a>
+            </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -32,10 +31,10 @@
                             <a class="nav-link" href="page_produit_et_service.html">Produits et Services</a>
                         </li>
                         <li class="nav-item" >
-                            <a class="nav-link" href="ecologie.html">écologie</a>
+                            <a class="nav-link" href="ecologie.html">Écologie</a>
                         </li>
                         <li class="nav-item" >
-                            <a class="nav-link" href="economie.html">économie</a>
+                            <a class="nav-link" href="economie.html">Économie</a>
                         </li>
                         
                     </ul>
@@ -53,7 +52,7 @@
         <br>
     </p>
 
-    <section class="window">
+    <div class="window fond">
 
         <div class="window-container_l" data-aos="fade-up" data-aos-duration="750">
             <div class="info">
@@ -62,30 +61,32 @@
             </div>
  
         </div>
-        <div class="window-container_long" data-aos="fade-up" data-aos-duration="750">
+        <div class="window-container_long " data-aos="fade-up" data-aos-duration="750">
             <div class="info">
                 <p class="title">1996</p>
                 <p class="texte"> Lancement officiel de Bouygues Telecom. Il devient le troisième opérateur mobile français, après Orange (ex-France Télécom Mobiles) et SFR. C'est l'opérateur qui a été le premier à commercialiser le forfait mobile en France, marquant une rupture avec la facturation à la minute.</p>
        
             </div>
-            <img src="images_index/1996.png" alt="" class="image_r">
+            <img src="1996.png" alt="1996" class="image_r">
         </div>
-        <div class="window-container_m" data-aos="fade-up" data-aos-duration="750">
+        <div class="ligne-horizontal" data-aos="fade-up" data-aos-duration="750"></div>
+        <div class="window-container_m " data-aos="fade-up" data-aos-duration="750">
             <div class="info">
                 <p class="title">1990-2000</p>
                 <p class="texte"> Période d'innovation dans les offres (par exemple, le forfait "Millenium" qui proposait les appels illimités le week-end en 1999).</p>
        
             </div>
         </div>
-        <div class="window-container_long data-aos="fade-up" data-aos-duration="750"">
-            <img src="images_index/bbox.png" alt="" class="image_l">
+        <div class="window-container_long " data-aos="fade-up" data-aos-duration="750">
+            <img src="bbox.png" alt="bbox" class="image_l">
             <div class="info">
                 <p class="title">2008</p>
                 <p class="texte"> Bouygues Telecom se positionne sur le marché du fixe et devient Fournisseur d'Accès Internet (FAI), proposant des offres ADSL avec sa Bbox.</p>
        
             </div>
         </div>
-        <div class="window-container_r" data-aos="fade-up" data-aos-duration="750">
+        <div class="ligne-horizontal" data-aos="fade-up" data-aos-duration="750"></div>
+        <div class="window-container_r " data-aos="fade-up" data-aos-duration="750">
             <div class="info">
                 <p class="title">2009</p>
                 <p class="texte"> L'opérateur lance la première offre quadruple play en France, combinant Internet fixe, télévision, téléphonie fixe et mobile.</p>
@@ -93,46 +94,56 @@
 
         </div>
         
-        <div class="window-container_long" data-aos="fade-up" data-aos-duration="750">
+        <div class="window-container_long " data-aos="fade-up" data-aos-duration="750">
             <div class="info">
                 <p class="title">2011</p>
                 <p class="texte"> Lancement de la marque B&YOU. C'est une marque de forfaits mobiles sans engagement et exclusivement en ligne, qui permet à Bouygues Telecom de concurrencer les nouvelles offres "low-cost" et de s'adapter aux changements du marché.</p>
             </div>
-            <img src="images_index/2011.png" alt="" class="image_r">
+            <img src="2011.png" alt="2011" class="image_r">
         </div>
-        <div class="window-container_m" data-aos="fade-up" data-aos-duration="750">
+        <div class="ligne-horizontal" data-aos="fade-up" data-aos-duration="750"></div>
+        <div class="window-container_m " data-aos="fade-up" data-aos-duration="750">
             <div class="info">
                 <p class="title">2013</p>
                 <p class="texte">Ouverture de son grand réseau 4G, permettant le déploiement du Très Haut Débit mobile sur une large partie du territoire français. Bouygues Telecom est également un acteur majeur du déploiement de la fibre optique (FTTH).</p>
             </div>
         </div>
-        <div class="window-container_long" data-aos="fade-up" data-aos-duration="750">
-            <img src="images_index/2016.png" alt="" class="image_l">
+        <div class="window-container_long " data-aos="fade-up" data-aos-duration="750">
+            <img src="2016.png" alt="2016" class="image_l">
             <div class="info">
                 <p class="title">2016</p>
                 <p class="texte"> Lancement de la 4GBox (box internet utilisant le réseau mobile 4G), une solution innovante pour fournir de l'Internet fixe aux zones mal desservies par l'ADSL.</p>
             </div>
         </div>
-        <div class="window-container_l" data-aos="fade-up" data-aos-duration="750">
+        <div class="ligne-horizontal" data-aos="fade-up" data-aos-duration="750"></div>
+        <div class="window-container_l " data-aos="fade-up" data-aos-duration="750">
             <div class="info">
                 <p class="title">Années 2020</p>
                 <p class="texte">Déploiement et commercialisation des offres 5G pour le mobile.</p>
             </div>
         </div>
-        <div class="window-container" data-aos="fade-up" data-aos-duration="750">
+        <div class="window-container " data-aos="fade-up" data-aos-duration="750">
             <div class="description">
-                <img src="images_index/benoit-torloting..webp" alt="" class="image_">
+                <img src="benoit.jpg" alt="benoit" class="image_">
                 <p>Benoît Torloting, CEO</p> 
             </div>
              <div class="p">
                 <p class="text">La direction de Bouygues Telecom est structurée autour de deux figures principales. Le poste de Directeur Général (CEO), en charge de la gestion opérationnelle et de la mise en œuvre de la stratégie de l'entreprise, est occupé par Benoît Torloting depuis le 1er janvier 2022. Fort d'une longue carrière au sein du groupe, où il est entré en 1999, il est l'artisan de la stratégie actuelle de l'opérateur, notamment de sa volonté d'être l'« opérateur Premium abordable ». D'autre part, le Président du Conseil d'Administration de Bouygues Telecom est Edward Bouygues (fils de Martin Bouygues), nommé en avril 2022. Il est également Directeur Général Délégué du Groupe Bouygues, soulignant l'importance de la filiale télécom dans la stratégie globale de la maison mère.</p>
             </div>
             <div class="description" data-aos="fade-up" data-aos-duration="750">
-                <img src="images_index/Edward Bouygues.jpg" alt="" class="image_">
+                <img src="Edward_Bouygues.jpg" alt="Edward" class="image_">
                 <p>Edward Bouygues, Président du Conseil d'Administration</p> 
             </div>
         </div>
-    </section>
+    </div>
+    <footer>
+        <p class="footer-texte">
+            Site de présentation sur <b>Bouygues Telecom</b>.
+        </p>
+        <p class="footer-texte">
+            Page réalisée par Erwan ERNY.
+        </p>
+    </footer>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
