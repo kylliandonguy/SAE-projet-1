@@ -173,6 +173,7 @@ section, body, html {
 footer {
     background: linear-gradient(to bottom right, var(--palette_bonus_primaire), var(--palette_bonus_secondaire), var(--palette_bonus_primaire));
     padding: 5%;
+    margin-top: 3%;
 }
 
 .footer-texte {
