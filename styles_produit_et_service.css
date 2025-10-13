@@ -12,10 +12,6 @@
 
 /*-----Elements de bases-----*/
 
-body, html {
-    background-color: var(--background_primaire);
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -36,6 +32,10 @@ body, html {
     --palette_bonus_primaire:#3498DB;
     --palette_bonus_secondaire:#25CCF7;
 
+}
+
+.page-background {
+    background-color: var(--background_primaire);
 }
 
 .ligne-horizontal {
